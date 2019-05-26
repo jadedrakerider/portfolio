@@ -1,0 +1,33 @@
+
+*{
+    outline: 1px dotted red;
+}
+
+
+section,nav,header{
+    background-color: gray;
+    padding:24px;
+}
+
+header {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+nav{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+section {
+    margin:24px;
+}
+
+
+
+
+
