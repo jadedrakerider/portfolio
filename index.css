@@ -3,12 +3,19 @@
     outline: 1px dotted red;
 }
 
-section,nav,main{
-    background-color: gray;
+body {
+    background-color: rgb(63, 63, 63);
+}
+
+section,main{
+    background-color: rgb(224, 224, 224);
     padding:24px;
+    border-radius:24px;
 }
 
 nav{
+    background-color: rgb(224, 224, 224);
+    padding:24px;
     position:fixed;
     bottom:0px;
     left:0px;
@@ -17,9 +24,54 @@ nav{
 
 section,main {
     margin:24px;
+    display:flex;
 }
 
+main {
+    flex-direction: column;
+}
 
+main > img {
+    height:128px;
+    width:128px;
+    margin:auto;
+}
 
+.hero > h1, .hero > h2 {
+    text-align:center;
+}
+
+.badges {
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.badge {
+    width:128px;
+    margin:24px;
+}
+
+.badge > p {
+    text-align: center;
+}
+
+.projects {
+    flex-direction:column;
+}
+
+.project > img{
+    width:128px;
+    height:128px;
+}
+
+.contact > ul {
+    list-style:none;
+}
+
+.contact li {
+    display: inline-block;
+    margin-right: 36px;
+}
 
 
