@@ -4,17 +4,17 @@
 }
 
 body {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(66, 37, 17);
 }
 
 section,main{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(238, 208, 168);
     padding:24px;
     border-radius:24px;
 }
 
 nav{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(209, 150, 61);
     padding:24px;
     position:fixed;
     bottom:0px;
@@ -37,6 +37,15 @@ main > img {
     margin:auto;
 }
 
+h1,h2,h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Gentium Basic', serif;
+}
+
+
 .hero > h1, .hero > h2 {
     text-align:center;
 }
@@ -57,7 +66,6 @@ main > img {
 }
 
 .projects {
-    flex-direction:column;
 }
 
 .project > img{
