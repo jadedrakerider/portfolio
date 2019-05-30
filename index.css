@@ -66,6 +66,7 @@ p {
 }
 
 .projects {
+    flex-direction:column;
 }
 
 .project > img{
