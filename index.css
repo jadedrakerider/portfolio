@@ -82,24 +82,39 @@ p {
 }
 
 .contactIcon {
-    height:64px;
-    width:64px;
+    height:32px;
+    width:32px;
 }
 
 @media screen and (min-width:480px) {
     section,main{
-        
-    border-radius:24px;
-    margin:24px;
+        border-radius:24px;
+        margin:24px;
     }
 
+    p {
+        font-size:x-large;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    h2,h3 {
+        font-size:x-large;
+    }
+
+    .contactIcon {
+        height:64px;
+        width:64px;
+    }
 }  
 
 @media screen and (min-width:600px) {
     section,main{
-    width:80%;
-    border-radius:24px;
-    margin:24px;
+        width:80%;
+        border-radius:24px;
+        margin:24px auto;
     }
 
 }  
