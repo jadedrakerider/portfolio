@@ -82,13 +82,22 @@ p {
 }
 
 .contactIcon {
-    height:128px;
-    width:128px;
+    height:64px;
+    width:64px;
 }
 
 @media screen and (min-width:480px) {
     section,main{
         
+    border-radius:24px;
+    margin:24px;
+    }
+
+}  
+
+@media screen and (min-width:600px) {
+    section,main{
+    width:80%;
     border-radius:24px;
     margin:24px;
     }
